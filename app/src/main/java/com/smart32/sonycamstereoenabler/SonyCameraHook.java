@@ -53,8 +53,8 @@ public class SonyCameraHook implements IXposedHookLoadPackage {
             ),
             new TargetConfiguration(
                     "com.sonymobile.cinemapro",
-                    "=LR",
-                    "",
+                    ".setting.CinemaSettingKeys",
+                    ".setting.CinemaSettings",
                     new String[]{
                             ".view.widget.AudioLevelWidget",
                             ".recorder"
@@ -130,7 +130,12 @@ public class SonyCameraHook implements IXposedHookLoadPackage {
         try {
             String micSettingsClass = config.pkgBase + config.micKeySource;
             Class<?> micSettingsClazz = XposedHelpers.findClass(micSettingsClass, classLoader);
-            Object micKey = XposedHelpers.getStaticObjectField(micSettingsClazz, "MIC");
+            Object micKey;
+                try {
+                    micKey = XposedHelpers.getStaticObjectField(micSettingsClazz, "MIC");
+                } catch (NoSuchFieldError e) {
+                    micKey = XposedHelpers.getStaticObjectField(micSettingsClazz, "KEY_MIC");
+                }
             Class<?> proSettingClazz = XposedHelpers.findClass(config.pkgBase + config.proSettingClass, classLoader);
             Object settingInstance = XposedHelpers.callStaticMethod(proSettingClazz, "getInstance");
             Object micValue = XposedHelpers.callMethod(settingInstance, "get", micKey);
@@ -153,4 +158,3 @@ public class SonyCameraHook implements IXposedHookLoadPackage {
                         .anyMatch(element.getClassName()::contains));
     }
 }
-
